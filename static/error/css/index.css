@@ -1,0 +1,24 @@
+body{
+    background-color: rgb(81, 48, 48);
+}
+
+.main-div{
+    width: 100%;
+    text-align: center;
+}
+.main-div h1{
+    font-size: 100px;
+    font-family: "Jacquarda Bastarda 9", serif;
+    display: inline;
+    color: red;
+}
+.icon{
+    font-size: 100px;
+    color: red;
+}
+.ss{
+    color: rgb(221, 96, 96);
+}
+p{
+    color: rgb(221, 96, 96);
+}
