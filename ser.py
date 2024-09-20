@@ -3,10 +3,10 @@ from pymongo.mongo_client import MongoClient
 import backend
 import os
 
-username = "akhilabhib"
+
 username = os.getenv('u')
 
-passs = 'akhilabhi'
+
 passs = os.getenv('p')
 # MongoDB connection URI
 uri = f"mongodb+srv://{username}:{passs}@url.lbopx.mongodb.net/?retryWrites=true&w=majority&appName=url"
