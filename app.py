@@ -4,6 +4,7 @@ import ser
 
 
 app = Flask(__name__)
+por = int(os.getenv('PORT', 4000))
 
 
 
@@ -33,4 +34,4 @@ def url():
 
 
 if __name__ == '__main__':
-    app.run()
+    app.run(host='0.0.0.0',port=por)
